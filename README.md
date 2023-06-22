@@ -1,4 +1,4 @@
-# Find Comics by image types Comicrack smartlist plugin 
+# Find Comics by image types in Comicrack smartlist plugin 
 Plugin for Comicrack permit to create a smartlist to filter comics by image file types.
 
 The script first imports necessary libraries and sets debugging and logging options. 
@@ -18,4 +18,8 @@ If you have problem importing libraries, download from IronPython web site the  
 https://github.com/IronLanguages/ironpython2/releases/download/ipy-2.7.12/IronPython.StdLib.2.7.12.zip, unzip it.
 Create a folder name 'lib" under comirack installation folder ( in my case C:\Program Files\ComicRack ) ad copy the content to it.
 
-The restart Comicrack.
+Then restart Comicrack.
+
+Be carefull selecting a lot of comics because this script unzip all of them and view the files inside. This could be a a hard process for ypur machine.
+
+If you like to view what is doing, then start comicrack with "-ssc" option to open the console.
