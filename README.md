@@ -17,12 +17,6 @@ With this and it's negation, you can create combinations for all the posibilitie
  
 In summary, this script helps users filter comic book files based on the image file types they contain.
 
-If you have problem importing libraries, download from IronPython web site the  IronPython.StdLib.2.7.12.zip which is located in
-https://github.com/IronLanguages/ironpython2/releases/download/ipy-2.7.12/IronPython.StdLib.2.7.12.zip, unzip it.
-Create a folder name 'lib" under comirack installation folder ( in my case C:\Program Files\ComicRack ) ad copy the content to it.
-
-Then restart Comicrack.
-
 Be carefull selecting a lot of comics, because this script unzip all of them and view the files inside. This could be a a hard process for your machine.
 
 If you like to view what is doing, then start comicrack with "-ssc" option to open the console.
